@@ -6,6 +6,12 @@ import './App.css'
 
 
 const App = () =>{
+
+    // Here is where I'd make a fetch to a database 
+    // using a token or cookie for the student's individual login
+    // and would update the student's trophy cabinet with 
+    // the trophy-related information that comes back from the database
+
     const [trophies, setTrophies] = useState([
         {
             trophyId: 0,
