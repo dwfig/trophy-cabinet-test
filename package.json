@@ -21,6 +21,7 @@
   },  
   "scripts": {
     "start": "webpack serve --mode development --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "heroku-prebuild": "yarn install --production=false"
   }
 }
